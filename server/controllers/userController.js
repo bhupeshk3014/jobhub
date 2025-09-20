@@ -34,7 +34,7 @@ export const applyForJob = async (req, res) => {
     }
 
     await JobApplication.create({
-      companayId: jobData.companayId,
+      companyId: jobData.companyId,
       userId,
       jobId,
       date: Date.now(),
